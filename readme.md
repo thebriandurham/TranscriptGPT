@@ -30,7 +30,7 @@ To use the extension, follow these steps:
 
 ## File Descriptions:
 
-### content_script.js":
+### content_script.js:
 This file contains the code that runs in the context of the web page that the user is currently viewing. It listens for messages from the extension and searches for elements in the page that match a specific selector. It then generates a conversation from the text content of those elements and copies it to the user's clipboard.
 
 ### manifest.json:
