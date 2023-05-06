@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Transcript GPT",
+  "version": "0.1",
+  "description": "Copy raw conversation text from ChatGPT conversations.",
+  "permissions": [
+    "clipboardWrite",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://chat.openai.com/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
