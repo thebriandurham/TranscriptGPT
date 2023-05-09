@@ -12,6 +12,9 @@ To install the extension, follow these steps:
 
 The extension will now be installed in Firefox and ready to use.
 
+Alternatively, grab the extension from the Firefox extensions market:
+https://addons.mozilla.org/en-US/firefox/addon/transcript-gpt-dev/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+
 ## Usage:
 To use the extension, follow these steps:
 
@@ -22,11 +25,9 @@ To use the extension, follow these steps:
 - The status of the operation will be displayed in the popup window.
 
 ## TODO:
-- Make an actual extension icon
 - Code review & optimization
 - Improve plugin 'popup' html with styling, formatting, and general UX 
 - Improve output formatting
-- Actually upload to Firefox addons ecosystem
 
 ## File Descriptions:
 
